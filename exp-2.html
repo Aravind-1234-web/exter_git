@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Prescription Template</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div id="formPage" class="card">
+
+<form id="prescriptionForm">
+
+<!-- ========================================= -->
+<!-- FORM HEADING -->
+<!-- ========================================= -->
+
+<div class="heading-box">
+
+    <label>Form Heading</label>
+
+    <input
+        type="text"
+        id="formHeading"
+        placeholder="Enter Heading"
+        required>
+
+</div>
+
+<!-- ========================================= -->
+<!-- PRESCRIPTION INFORMATION -->
+<!-- ========================================= -->
+
+<div class="section">
+
+<h2>Prescription Information</h2>
+
+<div class="grid-3">
+
+<div class="input-group">
+
+<label>Prescription Date</label>
+
+<input
+    type="date"
+    id="prescriptionDate"
+    required>
+
+</div>
+
+<div class="input-group">
+
+<label>MRN</label>
+
+<input
+    type="text"
+    id="mrn"
+    readonly>
+
+</div>
+
+<div class="input-group">
+
+<label>CEIB</label>
+
+<input
+    type="text"
+    id="ceib"
+    readonly>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ========================================= -->
+<!-- PATIENT INFORMATION -->
+<!-- ========================================= -->
+
+<div class="section">
+
+<h2>Patient Information</h2>
+<div class="grid-2">
+
+    <!-- First Name -->
+
+    <div class="input-group">
+
+        <label>First Name</label>
+
+        <input
+            type="text"
+            id="firstName"
+            placeholder="First Name"
+            required>
+
+    </div>
+
+    <!-- Last Name -->
+
+    <div class="input-group">
+
+        <label>Last Name</label>
+
+        <input
+            type="text"
+            id="lastName"
+            placeholder="Last Name"
+            required>
+
+    </div>
+
+    <!-- Age -->
+
+    <div class="input-group">
+
+        <label>Age</label>
+
+        <input
+            type="number"
+            id="age"
+            placeholder="Age">
+
+    </div>
+
+    <!-- Date of Birth -->
+
+    <div class="input-group">
+
+        <label>Date of Birth</label>
+
+        <input
+            type="date"
+            id="dob">
+
+    </div>
+
+    <!-- Gender -->
+
+    <div class="input-group">
+
+        <label>Gender</label>
+
+        <div class="radio-group">
+
+            <label>
+                <input
+                    type="radio"
+                    name="gender"
+                    value="Male">
+                Male
+            </label>
+
+            <label>
+                <input
+                    type="radio"
+                    name="gender"
+                    value="Female">
+                Female
+            </label>
+
+            <label>
+                <input
+                    type="radio"
+                    name="gender"
+                    value="Other">
+                Other
+            </label>
+
+        </div>
+
+    </div>
+
+    <!-- Phone -->
+
+    <div class="input-group">
+
+        <label>Phone Number</label>
+
+        <input
+            type="tel"
+            id="phone"
+            placeholder="(000) 000-0000">
+
+    </div>
+
+    <!-- Email -->
+
+    <div class="input-group full">
+
+        <label>Email Address</label>
+
+        <input
+            type="email"
+            id="email"
+            placeholder="example@email.com">
+
+    </div>
+
+</div>
+
+</div>
+
+<!-- ========================================= -->
+<!-- ADDRESS -->
+<!-- ========================================= -->
+
+<div class="section">
+
+    <h2>Address</h2>
